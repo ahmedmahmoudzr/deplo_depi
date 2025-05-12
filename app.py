@@ -13,7 +13,7 @@ st.title("Sales Forecasting System")
 st.subheader("Please enter the following data:")
 
 
-order_date_str = st.text_input("Order date(Order Date)", value="2023-01-01")  # يمكن للمستخدم إدخال التاريخ بأي صيغة
+order_date_str = st.text_input("Order date(Order Date)", value="2023-01-01")  
 segment = st.selectbox(" (Segment)", ["Consumer", "Corporate", "Home Office"])
 promotion_flag_str = st.selectbox("Is there a promotion?(PromotionFlag)", ["Yes", "No"])
 promotion_flag = 1 if promotion_flag_str == "Yes" else 0
